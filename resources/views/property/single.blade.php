@@ -18,31 +18,31 @@
                     <h2 class="text-3xl text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam enim
                         reprehenderit quas</h2>
                     <h3 class="text-lg mt-2">Price: <span class="text-red-800">
-                        @if ($property)
+                            @if ($property)
                                 {{ number_format($property->price, 2, ',', ',') }} TL
                             @else
                                 500,00,00 TL
                             @endif
-                </span></h3>
+                        </span></h3>
                 </div>
                 <div class="w-3/12">
                     <ul class="flex justify-end -mr-2">
                         <li>
                             <a class="flex flex-col justify-center items-center mx-2 border-2 border-gray-200 p-3 hover:border-red-400 duration-200"
-                               href="#">
+                                href="#">
                                 <i class="fa fa-print mb-2"></i>
                                 <span class="text-md block">Print</span>
                             </a>
                         </li>
                         <li>
                             <a class="flex flex-col justify-center items-center mx-2 border-2 border-gray-200 p-3 hover:border-red-400 duration-200"
-                               href="#">
+                                href="#">
                                 <i class="fa fa-heart-o mb-2"></i>
                                 <span class="text-md block">Save</span></a>
                         </li>
                         <li>
                             <a class="flex flex-col justify-center items-center mx-2 border-2 border-gray-200 p-3 hover:border-red-400 duration-200"
-                               href="#">
+                                href="#">
                                 <i class="fa fa-share-alt mb-2"></i>
                                 <span class="text-md block">Share</span></a>
                         </li>
@@ -60,39 +60,69 @@
             <div class="w-9/12">
                 <div id="slider" class="">
                     <div class="gallery-slider">
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-gallery-item bg-cover bg-center"></div>
                     </div>
 
                     <div class="thumbnail-slider">
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
-                        <div style="background-image: url(/img/hero-bg.jpg)" class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
+                        <div style="background-image: url(/img/hero-bg.jpg)"
+                            class="single-thumbnail-item bg-cover bg-center"></div>
                     </div>
                 </div>
                 {{-- Overview --}}
@@ -301,11 +331,12 @@
                             <label class="inputLabel" for="message">Message <span
                                     class="text-red-800 font-serif">*</span></label>
                             <textarea class="inputField" id="message" name="message" rows="4"
-                                      placeholder="I'm interested in this property"></textarea>
+                                placeholder="I'm interested in this property"></textarea>
                         </div>
                         <div class="mt-5">
                             <button type="submit"
-                                    class="w-full border-2 uppercase text-center py-3 font-semibold border-red-800 hover:bg-transparent hover:text-red-800 duration-200  text-white bg-red-800 rounded-none"><i class="fa fa-commenting mr-2"></i>Request
+                                class="w-full border-2 uppercase text-center py-3 font-semibold border-red-800 hover:bg-transparent hover:text-red-800 duration-200  text-white bg-red-800 rounded-none"><i
+                                    class="fa fa-commenting mr-2"></i>Request
                                 Details</button>
                         </div>
 

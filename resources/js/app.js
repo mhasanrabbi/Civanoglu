@@ -8,7 +8,7 @@ Alpine.start();
 
 window.$ = window.jQuery = require("jquery");
 
-require("./jquery.slim.min.js");
+require("./slick-1.8.1.min");
 
 jQuery(window).scroll(function () {
     const scroll = jQuery(window).scrollTop();
